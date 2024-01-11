@@ -1,4 +1,4 @@
-/* Restaurant Order Analysis */
+/* Restaurant Order Analysis -- A Maven Analytics Project*/
 /* Analyze order data to identify the most and least popular menu items and types of cuisine */
  
 USE restaurant_db;
