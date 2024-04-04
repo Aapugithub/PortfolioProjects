@@ -12,7 +12,7 @@ SELECT COUNT(DISTINCT item_name) AS number_of_items  FROM menu_items;
 -- 2.What are the least and most expensive items on the menu?
 SELECT item_name AS least_expensive_item,price
 FROM menu_items
-ORDER BY price DESC LIMIT 1;
+ORDER BY price LIMIT 1;
 
 SELECT item_name AS most_expensive_item,price
 FROM menu_items
